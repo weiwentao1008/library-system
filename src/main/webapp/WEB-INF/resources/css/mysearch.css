@@ -1,0 +1,71 @@
+
+#container {
+	margin: 0 auto;
+	width: 570px;
+}
+
+#search_box {
+	border: 3px solid #2A0000;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: inset 0 1px #ffff90, inset 0 -2px 5px #ffd05d, 0 0 0 4px rgba(255,255,255,0.65);
+	-webkit-box-shadow: inset 0 1px #ffff90, inset 0 -2px 5px #ffd05d, 0 0 0 4px rgba(255,255,255,0.65);
+	padding: 9px;
+	width: 570px;
+	background-color: #2A1F00;
+	background-position: 0 0;
+	height: 60px;
+	position: relative;
+}
+
+#search_box .wrapper {
+	background: #fff;
+	border: 1px solid #d28703;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.3), 0 1px #ff0;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.3), 0 1px #ff0;
+	height: auto;
+	padding-left: 10px;
+	position: relative;
+	float: right;
+	width: auto;
+}
+
+#search_box input,
+#search_box input:focus {
+	border: none;
+	color: #333;
+	outline: none;
+	font: bold 24px Helvetica, Arial, sans-serif;
+	width: 400px;
+	margin-top: 12px;
+	margin-right: 0;
+	margin-bottom: 12px;
+	margin-left: 0;
+	height: 30px;
+}
+#search_box button {
+	background:-moz-linear-gradient(top, #453e26, #000);
+	background:-webkit-gradient(linear, 0 0, 0 100%, from(#453e26), to(#000));
+	border:1px solid #000;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-box-shadow:inset 0 -2px 3px #193544, inset 0 1px #907817, 0 1px 1px rgba(0,0,0,4);
+	-webkit-box-shadow:inset 0 -2px 3px #193544, inset 0 1px #907817, 0 1px 1px rgba(0,0,0,.4);
+	cursor:pointer;
+	height:45px; 
+	position:absolute; 
+	right:2px; 
+	top:2px; 
+	width:45px;
+}
+
+#searchselect {
+	float: left;
+	width: auto;
+	height: auto;
+	margin-top: 15px;
+	position: relative;
+}
